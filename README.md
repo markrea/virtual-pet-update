@@ -12,5 +12,3 @@ cd virtual-pet-update
 
 Install the dependencies:
 npm install
-
-
