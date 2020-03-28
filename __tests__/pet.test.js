@@ -144,4 +144,9 @@ describe('constructor', () => {
        pet.adoptsChild(child);
         expect(pet.children).toEqual([{name: 'Dave', age: 0, hunger: 0, fitness: 10, children: []}]);
      })
+     it('adds one element to the children array', () => {
+       const child = new Pet('Jonny');
+       pet.adoptsChild(child);
+       expect(pet.children.length).toEqual(1)
+     })
    })      
