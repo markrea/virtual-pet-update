@@ -2,4 +2,15 @@
 Look after your own pet but without the hassle
 
 ## Getting Started
-Clone down the repository to get stated.
+Follow these instructions to get the project running on your own computer.
+
+Clone this repository:
+git@github.com:markrea/virtual-pet-update.git
+
+Open the repository:
+cd virtual-pet-update
+
+Install the dependencies:
+npm install
+
+
